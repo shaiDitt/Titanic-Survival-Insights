@@ -1,4 +1,6 @@
 # Análise Exploratória de Dados: Titanic 🚢
+**Autores:** Isabelle Euclides & Shaini Dittberner  
+**Instituição:** bytes4futures
 
 Este repositório contém uma análise detalhada sobre o conjunto de dados do Titanic, explorando os fatores que influenciaram a sobrevivência dos passageiros. O projeto utiliza Python e bibliotecas de ciência de dados para transformar dados brutos em insights significativos.
 
@@ -28,20 +30,17 @@ A matriz de calor permitiu identificar quais variáveis estavam mais ligadas à 
 ### 3. Análise por Faixa Etária
 Ao segmentar os passageiros por idade, novos padrões surgiram:
 - **Insight:** Crianças (0-12 anos) tiveram uma das maiores taxas de sobrevivência em todas as classes. Por outro lado, adultos na faixa de 18 a 35 anos compunham a maior parte das vítimas, especialmente os do sexo masculino em classes econômicas inferiores.
-* **Crianças:**
-    ![Correlação Crianças](/images/correlacao-criancas.png)
-* **Adultos (Geral):**
-    ![Correlação Adultos](/images/correlacao-adultos.png)
-![Distribuição de Sobrevivência por Idade](/images/distribuicao-de-sobrevivencia-por-idade.png)
-
-#### Aprofundamento em Correlações por Idade e Classe:
-Para entender melhor o impacto em diferentes grupos, analisamos as matrizes de correlação específicas para crianças e adultos, separando também por classes sociais.
-
-
-* **Adultos (1ª e 2ª Classe):**
-    ![Matriz de Correlação Adultos 1 e 2 Classe](/images/matriz-de-correlacao-adultos-1-e-2-classe.png)
-* **Adultos (3ª Classe):**
-    ![Matriz de Correlação Adultos 3 Classe](/images/matriz-de-correlacao-adultos-3-classe.png)
+- ![Distribuição de Sobrevivência por Idade](/images/distribuicao-de-sobrevivencia-por-idade.png)
+<table align="center">
+  <tr>
+    <td align="center"><strong>Crianças</strong></td>
+    <td align="center"><strong>Adultos (Geral)</strong></td>
+  </tr>
+  <tr>
+    <td><img src="/images/correlacao-criancas.png" width="400"></td>
+    <td><img src="/images/correlacao-adultos.png" width="400"></td>
+  </tr>
+</table>
 
 ### 4. Comparação por Classe Social (Socioeconômica)
 A classe do passageiro foi um determinante crucial para o destino final.
@@ -49,6 +48,16 @@ A classe do passageiro foi um determinante crucial para o destino final.
     - **3ª Classe:** Apesar de ser a mais numerosa, teve a menor taxa de sobrevivência, evidenciando o impacto do status socioeconômico no acesso aos botes salva-vidas.
 
 ![Sobrevivência por Classe Social](/images/sobrevivencia-por-classe-social.png)
+<table align="center">
+  <tr>
+    <td align="center"><strong>Adultos (1ª e 2ª Classe)</strong></td>
+    <td align="center"><strong>Adultos (3ª Classe)</strong></td>
+  </tr>
+  <tr>
+    <td><img src="/images/matriz-de-correlacao-adultos-1-e-2-classe.png" width="400"></td>
+    <td><img src="/images/matriz-de-correlacao-adultos-3-classe.png" width="400"></td>
+  </tr>
+</table>
 
 ---
 
